@@ -98,9 +98,9 @@ a:active{
     margin: 0 auto;
 }
 
-.content{
+/*.content{
     margin-top: 200px;
-}
+}*/
 
 .background{
     position: absolute;
@@ -134,7 +134,7 @@ a:active{
 }
 
 .banner{
-    position: fixed;
+    /*position: fixed;*/
     left: 0;
     top: 0;
     width: 100%;
