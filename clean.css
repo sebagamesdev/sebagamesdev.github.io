@@ -37,6 +37,7 @@ a:active{
 
 #nav li {
     display: inline;
+    font-size: 150%;
 }
 
 #nav li a {
@@ -71,13 +72,13 @@ a:active{
     /*font-style:italic;*/
 }
 
-.content{
+/*.content{
     width:50%;
     margin:0 auto;
 	position: relative;
     height: 400px;
     text-align:right;
-}
+}*/
 
 .video{
     position: absolute;
@@ -97,38 +98,61 @@ a:active{
     margin: 0 auto;
 }
 
+.content{
+    margin-top: 200px;
+}
+
 .background{
     position: absolute;
     
     opacity: .25;
-
-    top: 0;
     left: 0;
     width: 100%;
     /*height: 100%;*/
+    align-self: stretch;
 	
-	z-index: -100;
+    z-index: -100;
+    
+    /*transform: translate3d(0px, 4.37564%, 0px);*/
 }
 
 .info{
+    z-index: -50;
+
     /*background-color:rgba(19, 7, 46, 0.79);*/
-    width:40%;
-    height:50%;
-    margin: 0 50%;
-    padding-right: 5%;
-    padding-left: 5%;
+    width:100%;
     
-    text-align:justify;
+    /*transform: translate3d(0px, 4.37564%, 0px);*/
+
+    text-align: center;
+    /*text-align:justify;*/
 }
 
 .info h2{
-    padding-top: 10%;
+    padding-top: 32px;
     text-align:center;
 }
 
-.info footer{
-    text-align:right;
+.banner{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
 }
+
+ .footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
 /*
 .footer{
 }
