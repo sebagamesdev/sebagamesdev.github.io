@@ -103,8 +103,10 @@ a:active{
 }*/
 
 .background{
-    position: absolute;
-    
+    position: fixed;
+
+    top: 100px;
+
     opacity: .25;
     left: 0;
     width: 100%;
