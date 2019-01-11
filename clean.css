@@ -14,11 +14,11 @@ a{
 }
 
 a:link{
-	color:#DDD;
+	color:rgb(44, 201, 83);
 }
 
 a:visited{
-	color:#AAA;
+	color:rgb(41, 163, 71);
 }
 
 a:hover{
@@ -48,10 +48,11 @@ a:active{
 #nav li a {
     text-align:center;
     display:inline-block;
-    width: 15.6%;
+    width: 16%;
     background-color:#383838;
     border-radius: 12px;
     font-style:italic;
+    color: white;
 }
 
 #nav li a:hover{
@@ -171,6 +172,17 @@ text-align: center;
     background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgb(51, 51, 51)); /* Standard syntax (must be last) */
 }
 
+.section_sub{
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-color: gray;
+    border-style: solid;
+    border-radius: 16px;
+    background-color: transparent;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgb(51, 51, 51)); /* Standard syntax (must be last) */
+}
+
 .section_title{
     margin-top: 2px;
     margin-left: 16px;
@@ -181,6 +193,16 @@ text-align: center;
     font-style: italic;
     background-color: transparent; /* For browsers that do not support gradients */
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(95, 95, 95), rgba(0, 0, 0, 0)); /* Standard syntax (must be last) */
+}
+
+.section_text{
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 16px;
+    font-size: 100%;
+    font-style: normal;
+    font-family: Arial;
 }
 
 .section_logo{
