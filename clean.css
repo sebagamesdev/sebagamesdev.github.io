@@ -30,10 +30,14 @@ a:active{
 }
 
 #nav{
-    width:90%;
+    /*width:100%;*/
     /*margin: 0 auto;*/
     /*align-items: center;*/
-    align-items: stretch;
+    /*align-items: stretch;*/
+    /*text-align: center;*/
+    margin-left: 10%;
+    margin-right: 10%;
+
 }
 
 #nav li {
@@ -120,6 +124,7 @@ text-align: center;
 }
 
 .banner{
+    width: 100%;
     color: white;
     text-align: center;
     height: 200px;
@@ -131,8 +136,10 @@ text-align: center;
     color: #ffffff;
     margin-top: 2px;
     margin-bottom: 16px;
+    padding-right: 2px;
     font-size: 125%;
     font-style:italic;
+    text-shadow: 3px 3px #797979;
 }
 
 .banner p{
@@ -155,24 +162,25 @@ text-align: center;
 
 .section{
     margin-bottom: 64px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
     border-color: gray;
     border-style: solid;
-    border-radius: 2px;
+    border-radius: 16px;
     background-color: transparent;
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgb(51, 51, 51)); /* Standard syntax (must be last) */
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgb(51, 51, 51)); /* Standard syntax (must be last) */
 }
 
 .section_title{
-    /*margin-left: 35%;
-    margin-right: 35%;*/
+    margin-top: 2px;
+    margin-left: 16px;
+    margin-right: 16px;
     margin-bottom: 16px;
     text-align: center;
-    font-size: 150%;
+    font-size: 120%;
     font-style: italic;
     background-color: transparent; /* For browsers that do not support gradients */
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(126, 126, 126), rgba(0, 0, 0, 0)); /* Standard syntax (must be last) */
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(95, 95, 95), rgba(0, 0, 0, 0)); /* Standard syntax (must be last) */
 }
 
 .section_logo{
