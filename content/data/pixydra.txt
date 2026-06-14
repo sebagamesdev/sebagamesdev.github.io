@@ -1,0 +1,3 @@
+version:260614_0
+name:Pixydra Studio [Early Access] v1.0
+notes: This is the first registered version
